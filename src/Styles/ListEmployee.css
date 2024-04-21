@@ -1,0 +1,32 @@
+button {
+    cursor: pointer;
+}
+
+table {
+    border: 2px solid black;
+    margin: auto;
+     width: 50%;
+}
+
+thead, tr, tbody {
+    border: 1px solid black;
+}
+
+.td-with-border-right, .th-with-border-right{
+    border-right: 1px solid black;
+}
+
+.add-button {
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.add-button:hover {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
